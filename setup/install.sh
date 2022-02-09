@@ -4,6 +4,10 @@ if [ -z /opt/homebrew/bin/brew ]; then
   export PATH=$PATH:/opt/homebrew/bin
 fi
 
+if ! command -v brew; then
+  echo "Fail to ru brew binary, please fix it and retry"
+  exit
+fi
 
 echo "Install brews formula"
 brew install \
@@ -19,7 +23,7 @@ brew install \
   jq
 
 if ! command -v fisher; then
-  echo "please install fish and fisher first and retry"
+  echo "Fail to run fisher binary, please fix it and retry"
   exit
 fi
 
