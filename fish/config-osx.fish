@@ -2,9 +2,9 @@ if type -q exa
   alias ll "exa -l -g --icons"
   alias lla "ll -a"
   alias llt "exa -l -g --icons -T"
-  alias mkdir "mkdir -p"
 end
 
+alias mkdir "mkdir -p"
 alias kg "kubectl get"
 alias kd "kubectl delete"
 alias kds "kubectl describe"
