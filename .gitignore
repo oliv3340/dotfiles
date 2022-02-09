@@ -1,9 +1,9 @@
-.DS_Store
-colors
-configstore
-mpv
-neofetch
-coc
+.config/.DS_Store
+.config/colors
+.config/configstore
+.config/mpv
+.config/neofetch
+.config/coc
 
 # cloned git repos
 .config/emacs
