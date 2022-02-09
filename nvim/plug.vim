@@ -27,6 +27,14 @@ if has("nvim")
   Plug 'nvim-telescope/telescope.nvim'
   Plug 'windwp/nvim-autopairs'
   Plug 'windwp/nvim-ts-autotag'
+  Plug 'sonph/onehalf', { 'rtp': 'vim' }
+  Plug 'drewtempelmeyer/palenight.vim'
+  Plug 'scrooloose/nerdtree'
+  Plug 'ryanoasis/vim-devicons'
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'airblade/vim-gitgutter'
+  Plug 'vim-airline/vim-airline'
+  Plug 'vim-airline/vim-airline-themes'
 endif
 
 Plug 'groenewege/vim-less', { 'for': 'less' }

@@ -138,10 +138,8 @@ if exists("&termguicolors") && exists("&winblend")
   set wildoptions=pum
   set pumblend=5
   set background=dark
-  " Use NeoSolarized
-  "let g:neosolarized_termtrans=1
-  "runtime ./colors/NeoSolarized.vim
-  "colorscheme NeoSolarized
+  colorscheme palenight
+  let g:lightline = { 'colorscheme': 'palenight' }
 endif
 
 "}}}
@@ -150,5 +148,10 @@ endif
 " ---------------------------------------------------------------------
 set exrc
 "}}}
+
+" Gitgutter config "{{{
+" ---------------------------------------------------------------------
+let g:airline_powerline_fonts = 1
+" }}}
 
 " vim: set foldmethod=marker foldlevel=0:
