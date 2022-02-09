@@ -1,7 +1,0 @@
-|neofetch|file
-m|mpv|file
-con|configstore|file
-co|colors|file
-|fish_variables|file
-|fish|file
-str|strconv|around
