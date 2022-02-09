@@ -3,5 +3,5 @@ color
 configstore
 mpv
 neofetch
-fish_variables
+fish/fish_variables
 coc
