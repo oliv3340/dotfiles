@@ -1,7 +1,7 @@
-./.DS_Store
-./colors
-./configstore
-./mpv
-./neofetch
-./fish/fish_variables
-./coc
+.DS_Store
+colors
+configstore
+mpv
+neofetch
+fish/fish_variables
+coc
