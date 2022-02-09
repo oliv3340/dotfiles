@@ -28,6 +28,9 @@ This gonna install :
 * vagrant
 * tldr
 * jq
+* git
+* git-flow
+* neofetch
 
 ### Requirements
 
