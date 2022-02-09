@@ -1,1 +1,3 @@
+|fish_variables|file
+|fish|file
 str|strconv|around
