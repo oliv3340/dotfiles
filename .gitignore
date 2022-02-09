@@ -3,5 +3,9 @@ colors
 configstore
 mpv
 neofetch
-fish/fish_variables
 coc
+
+.config/fish/fish_history
+.config/fish/fishd.*
+.config/fish/fish_variables
+.local/share/fish/generated_completions
