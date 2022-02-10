@@ -1,0 +1,14 @@
+2022-02-09 11:50:51,016 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2022-02-09 11:50:51,031 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'configure_docker']
+2022-02-09 11:50:51,033 DEBUG    root            Running [gcloud.auth.configure-docker] with arguments: []
+2022-02-09 11:50:51,332 INFO     ___FILE_ONLY___ Adding credentials for all GCR repositories.
+
+2022-02-09 11:50:51,333 WARNING  root            A long list of credential helpers may cause delays running 'docker build'. We recommend passing the registry name to configure only the registry you are using.
+2022-02-09 11:51:01,581 INFO     ___FILE_ONLY___ Docker configuration file updated.
+
+2022-02-09 11:51:01,583 INFO     root            Display format: "default"
+2022-02-09 11:51:01,584 DEBUG    root            Checking for updates...
+2022-02-09 11:51:01,616 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2022-02-09 11:51:01,708 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 179444
+2022-02-09 11:51:01,776 DEBUG    root            Updating notification cache...
+2022-02-09 11:51:01,795 DEBUG    root            Metrics reporting process started...

@@ -1,0 +1,7 @@
+2022-02-09 11:51:58,000 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2022-02-09 11:51:58,010 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'docker_helper']
+2022-02-09 11:51:58,011 DEBUG    root            Running [gcloud.auth.docker-helper] with arguments: [METHOD: "get"]
+2022-02-09 11:51:58,011 WARNING  root            Could not open the configuration file: [/Users/Olivier.Graciannette/.config/gcloud/configurations/config_default].
+2022-02-09 11:51:58,011 INFO     ___FILE_ONLY___ You do not currently have an active account selected. See https://cloud.google.com/sdk/docs/authorizing for more information.
+
+2022-02-09 11:51:58,017 DEBUG    root            Metrics reporting process started...

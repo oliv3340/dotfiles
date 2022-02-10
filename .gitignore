@@ -1,4 +1,13 @@
 .DS_Store
+.last*
+.metrics*
+access_tokens.db
+config_sentinel
+configurations
+credentials.db
+gce
+gcloud
+legacy_credentials
 colors
 configstore
 mpv
