@@ -20,6 +20,7 @@ echo "Install brews formula"
 brew install \
   fish \
   fisher \
+  ansible \
   exa \
   python3 \
   virtualenv \
@@ -31,6 +32,7 @@ brew install \
   git \
   git-flow \
   neofetch
+brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
 
 if ! command -v fisher; then
   echo "Fail to run fisher binary, please fix it and retry"
