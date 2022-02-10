@@ -20,6 +20,7 @@ $ .config/setup/install.sh
 This gonna install :
 * fish
 * fisher
+* ansible
 * exa
 * python3
 * virtualenv
@@ -34,4 +35,8 @@ This gonna install :
 
 ### Requirements
 
-This script use [homebrew](https://brew.sh/index_fr)  to install everythinf so you need to install it first.
+This script use [homebrew](https://brew.sh/index_fr)  to install everything so you need to install it. Hopefully, it can check if `Homebrew` is install or not and install it in consequences.
+
+### Custom tunning and privacy
+
+You can tune this `fish` config and aliases without versioning it under `fish/config-private.fish`. Usefullf if you need to keep configs secret.

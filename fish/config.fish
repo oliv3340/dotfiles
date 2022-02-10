@@ -56,7 +56,7 @@ if test -f $LOCAL_CONFIG
   source $LOCAL_CONFIG
 end
 
-# source work config
-if test -f (dirname (status --current-filename))/config-work.fish
-  source (dirname (status --current-filename))/config-work.fish
+# source private config
+if test -f (dirname (status --current-filename))/config-private.fish
+  source (dirname (status --current-filename))/config-private.fish
 end
