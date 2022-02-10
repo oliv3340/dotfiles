@@ -6,6 +6,8 @@ config_sentinel
 configurations
 credentials.db
 gce
+
+# dir to exclude
 gcloud
 legacy_credentials
 logs
@@ -15,4 +17,8 @@ mpv
 neofetch
 coc
 after
+
+# fish
 fish/fish_variables
+fish/config-work.fish
+fish/*.tmp*
