@@ -8,6 +8,7 @@ credentials.db
 gce
 gcloud
 legacy_credentials
+logs
 colors
 configstore
 mpv
