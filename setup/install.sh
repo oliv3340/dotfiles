@@ -34,6 +34,7 @@ brew install \
   jq \
   git \
   git-flow \
+  neovim \
   neofetch \
   vlc \
   streamlink
