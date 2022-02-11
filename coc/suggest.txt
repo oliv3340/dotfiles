@@ -1,0 +1,17 @@
+|node_modules|file
+e|extensions|file
+confi|config|around
+Mard|Markdown|around
+e|error.log|file
+|bpytop.conf|file
+ples|please|around
+dotfile|dotfiles|around
+dir|directory|around
+instl|install|around
+home|homebrew|around
+homebre|homebrew|around
+scip|script|around
+fi|fisher|around
+op|opt|file
+bas|bash|file
+bin|bin|file

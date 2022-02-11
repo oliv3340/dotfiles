@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "coc-go": ">=1.1.0",
+    "coc-json": ">=1.4.1",
+    "coc-lua": ">=1.0.1",
+    "coc-python": ">=1.2.13",
+    "coc-react-refactor": ">=0.5.0"
+  }
+}

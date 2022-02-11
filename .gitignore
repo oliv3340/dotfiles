@@ -15,12 +15,13 @@ colors
 configstore
 mpv
 neofetch
-coc
 after
 
 # bpytop
 bpytop/error.log
 
+# coc
+coc/extensions/node_modules
 
 # fish
 fish/fish_variables
