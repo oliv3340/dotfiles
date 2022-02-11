@@ -18,6 +18,10 @@ neofetch
 coc
 after
 
+# bpytop
+bpytop/error.log
+
+
 # fish
 fish/fish_variables
 fish/config-private.fish
