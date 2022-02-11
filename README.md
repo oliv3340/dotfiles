@@ -9,6 +9,8 @@ dotfiles content
 * fish
 * nvim
 * bpytop
+* nvim
+* coc
 
 ## Automation
 
@@ -35,6 +37,7 @@ This gonna install :
 * neofetch
 * vlc
 * streamlink
+* youtube-dl
 
 ### Requirements
 

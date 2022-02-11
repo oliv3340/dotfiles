@@ -37,7 +37,8 @@ brew install \
   neovim \
   neofetch \
   vlc \
-  streamlink
+  streamlink \
+  youtube-dl
 brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
 
 if ! command -v fisher; then

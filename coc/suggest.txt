@@ -1,3 +1,4 @@
+nvim|nvim|around
 |node_modules|file
 e|extensions|file
 confi|config|around
