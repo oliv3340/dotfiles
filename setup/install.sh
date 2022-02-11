@@ -13,8 +13,11 @@ fi
 echo "CONFIG dotfiles : Make sure to be on HOME/.config directory"
 mkdir -p $HOME/.config
 cd $HOME/.config
-echo "Cloning dotfiles"
-git clone https://github.com/oliv3340/dotfiles
+if [ -z .git ]; then
+  echo "Cloning dotfiles"
+  git clone https://github.com/oliv3340/dotfiles
+fi
+git pull
 
 echo "Install brews formula"
 brew install \
