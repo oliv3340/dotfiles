@@ -8,7 +8,10 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 
 if has("nvim")
+  Plug 'hoob3rt/lualine.nvim'
+  Plug 'kristijanhusak/defx-git'
   Plug 'kristijanhusak/defx-icons'
+  Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
   Plug 'neovim/nvim-lspconfig'
   Plug 'tami5/lspsaga.nvim', { 'branch': 'nvim6.0' }
   Plug 'folke/lsp-colors.nvim'
@@ -17,11 +20,14 @@ if has("nvim")
   Plug 'hrsh7th/cmp-buffer'
   Plug 'hrsh7th/nvim-cmp'
   Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
+  Plug 'kyazdani42/nvim-web-devicons'
   Plug 'onsails/lspkind-nvim'
+  Plug 'nvim-lua/popup.nvim'
   Plug 'nvim-lua/plenary.nvim'
   Plug 'nvim-telescope/telescope.nvim'
   Plug 'windwp/nvim-autopairs'
   Plug 'windwp/nvim-ts-autotag'
+  Plug 'sonph/onehalf', { 'rtp': 'vim' }
   Plug 'drewtempelmeyer/palenight.vim'
   Plug 'scrooloose/nerdtree'
   Plug 'ryanoasis/vim-devicons'
@@ -29,6 +35,8 @@ if has("nvim")
   Plug 'airblade/vim-gitgutter'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
+  Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+  Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 endif
 
 Plug 'groenewege/vim-less', { 'for': 'less' }
