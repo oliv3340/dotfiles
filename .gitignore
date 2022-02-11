@@ -20,5 +20,5 @@ after
 
 # fish
 fish/fish_variables
-fish/config-work.fish
+fish/config-private.fish
 fish/*.tmp*
