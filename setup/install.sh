@@ -31,7 +31,9 @@ brew install \
   jq \
   git \
   git-flow \
-  neofetch
+  neofetch \
+  vlc \
+  streamlink
 brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
 
 if ! command -v fisher; then

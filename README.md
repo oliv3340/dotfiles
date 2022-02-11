@@ -32,6 +32,8 @@ This gonna install :
 * git
 * git-flow
 * neofetch
+* vlc
+* streamlink
 
 ### Requirements
 
