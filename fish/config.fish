@@ -29,6 +29,7 @@ set -gx PATH node_modules/.bin $PATH
 # Go
 set -g GOPATH $HOME/Documents/projects/dev/language/go
 set -gx PATH $GOPATH/bin $PATH
+set -g GO111MODULE on
 
 # NVM
 function __check_rvm --on-variable PWD --description 'Do nvm stuff'
