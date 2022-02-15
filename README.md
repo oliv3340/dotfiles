@@ -24,9 +24,11 @@ This gonna install :
 * fisher
 * ansible
 * exa
+* ccat
 * python3
 * virtualenv
 * go
+* operator-sdk
 * bpytop
 * vagrant
 * tldr

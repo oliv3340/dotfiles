@@ -5,6 +5,7 @@ if type -q exa
 end
 
 alias mkdir "mkdir -p"
+alias cat "ccat"
 alias kg "kubectl get"
 alias kd "kubectl delete"
 alias kds "kubectl describe"
