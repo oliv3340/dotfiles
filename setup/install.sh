@@ -43,7 +43,7 @@ brew install \
   youtube-dl
 brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
 
-pip3 install python-pygments
+pip3 install pygments
 
 if ! command -v fisher; then
   echo "Fail to run fisher binary, please fix it and retry"
