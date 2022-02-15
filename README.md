@@ -24,8 +24,8 @@ This gonna install :
 * fisher
 * ansible
 * exa
-* ccat
 * python3
+* python-pygments
 * virtualenv
 * go
 * operator-sdk
