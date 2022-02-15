@@ -1,3 +1,8 @@
+nam|name|around
+sd|sdk|around
+oper|operator|around
+project|project|around
+opera|operator|around
 nvim|nvim|around
 |node_modules|file
 e|extensions|file
