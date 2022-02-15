@@ -138,8 +138,8 @@ if exists("&termguicolors") && exists("&winblend")
   set wildoptions=pum
   set pumblend=5
   set background=dark
-  colorscheme palenight
-  let g:lightline = { 'colorscheme': 'palenight' }
+  colorscheme onedark
+  "let g:lightline = { 'colorscheme': 'palenight' }
 endif
 
 "}}}
