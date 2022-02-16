@@ -40,7 +40,9 @@ brew install \
   neofetch \
   vlc \
   streamlink \
-  youtube-dl
+  youtube-dl \
+  terraform \
+  tfswitch
 brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
 
 pip3 install pygments

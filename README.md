@@ -40,6 +40,8 @@ This gonna install :
 * vlc
 * streamlink
 * youtube-dl
+* terraform
+* tfswitch
 
 ### Requirements
 
