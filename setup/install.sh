@@ -41,7 +41,6 @@ brew install \
   vlc \
   streamlink \
   youtube-dl \
-  terraform \
   warrensbox/tap/tfswitch
 brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
 
