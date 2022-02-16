@@ -42,7 +42,7 @@ brew install \
   streamlink \
   youtube-dl \
   terraform \
-  tfswitch
+  warrensbox/tap/tfswitch
 brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
 
 pip3 install pygments
