@@ -41,6 +41,7 @@ This gonna install :
 * streamlink
 * youtube-dl
 * tfswitch
+* awscli
 
 ### Requirements
 

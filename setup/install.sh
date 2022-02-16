@@ -20,29 +20,7 @@ fi
 git pull
 
 echo "Install brews formula"
-brew install \
-  fish \
-  fisher \
-  ansible \
-  exa \
-  ccat \
-  python3 \
-  virtualenv \
-  go \
-  operator-sdk \
-  bpytop \
-  vagrant \
-  tldr \
-  jq \
-  git \
-  git-flow \
-  neovim \
-  neofetch \
-  vlc \
-  streamlink \
-  youtube-dl \
-  warrensbox/tap/tfswitch
-brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
+brew install ./Brewfile
 
 pip3 install pygments
 
