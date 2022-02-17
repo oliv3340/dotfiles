@@ -13,6 +13,7 @@ alias kd "kubectl delete"
 alias kds "kubectl describe"
 alias kl "kubectl logs"
 alias ka "kubectl apply"
+alias krun "kubectl run"
 
 alias fishr "source $HOME/.config/fish/config.fish"
 
