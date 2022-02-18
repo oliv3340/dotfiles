@@ -27,3 +27,6 @@ coc/extensions/node_modules
 fish/fish_variables
 fish/config-private.fish
 fish/*.tmp*
+
+# Brew
+*Brewfile.lock*
