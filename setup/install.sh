@@ -20,7 +20,7 @@ fi
 git pull
 
 echo "Install brews formula"
-brew install ./Brewfile
+brew bundle install ./Brewfile
 
 pip3 install pygments
 
