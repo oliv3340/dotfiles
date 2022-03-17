@@ -8,6 +8,8 @@ alias mkdir "mkdir -p"
 if command -qv pygmentize
   alias cat "pygmentize -gO style=one-dark"
 end
+alias k "kubectl"
+alias ksns "kubectl config set-context --current --namespace"
 alias kg "kubectl get"
 alias kd "kubectl delete"
 alias kds "kubectl describe"
