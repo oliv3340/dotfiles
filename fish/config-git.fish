@@ -155,3 +155,10 @@ end
 # these alias commit and uncomit wip branches
 alias gwip='git add -A; git ls-files --deleted -z | xargs -0 git rm; git commit -m "wip"'
 alias gunwip='git log -n 1 | grep -q -c wip; and git reset HEAD~1'
+
+alias gfs='git flow feature start'
+alias gff='git flow feature finish'
+alias grs='git flow release start'
+alias grf='git flow release finish'
+alias gbs='git flow bugfix start'
+alias gbf='git flow bugfix finish'
