@@ -22,8 +22,6 @@ git pull
 echo "Install brews formula"
 brew bundle install ./Brewfile
 
-pip3 install pygments
-
 if ! command -v fisher; then
   echo "Fail to run fisher binary, please fix it and retry"
   exit
