@@ -4,6 +4,10 @@ if type -q exa
   alias llt "exa -l -g --icons -T"
 end
 
+if type -q bpytop
+  alias top "bpytop"
+end
+
 alias mkdir "mkdir -p"
 alias cat "bat"
 alias k "kubectl"
